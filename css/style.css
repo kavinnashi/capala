@@ -5735,12 +5735,13 @@ html:not(.lt-ie10) .not-animated {
 	font-size: 20px;
 	line-height: 56px;
 	color: #ffffff;
-	background: #516ca9;
+	background: #10d1d1;
 	overflow: hidden;
 	text-align: center;
 	text-decoration: none;
 	transition: .45s all ease-in-out;
 	transform: translate3d(0, 100px, 0);
+	border-radius: 50%;
 }
 
 .ui-to-top:after {
@@ -5751,7 +5752,7 @@ html:not(.lt-ie10) .not-animated {
 	z-index: -1;
 	width: 100%;
 	height: 0;
-	background: #31404a;
+	background: #3a5f77;
 	transition: inherit;
 }
 
