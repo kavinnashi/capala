@@ -60,8 +60,11 @@
 .row-align-center{
 	justify-content: center;
 }
-br+.list-marked-primary{
-color:#fff;
+ .list-marked-primary-custom{
+color:#fff !important;
+}
+.text-align-left{
+	text-align: left;
 }
 a:focus,
 button:focus {
