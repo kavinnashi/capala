@@ -60,6 +60,9 @@
 .row-align-center{
 	justify-content: center;
 }
+br+.list-marked-primary{
+color:#fff;
+}
 a:focus,
 button:focus {
 	outline: none !important;
