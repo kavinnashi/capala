@@ -169,7 +169,7 @@ body {
 	font-size: 14px;
 	line-height: 1.71429;
 	font-weight: 400;
-	color: #989da7;
+	color: #000000;
 	background-color: #ffffff;
 	-webkit-text-size-adjust: none;
 	-webkit-font-smoothing: subpixel-antialiased;
@@ -847,7 +847,7 @@ a[href*='tel'], a[href*='mailto'] {
 
 .box-icon-3 .icon,
 .box-icon-3 .title {
-	color: #516ca9;
+	color: #15254a;
 }
 
 .box-icon-3 * + .text {
@@ -5309,6 +5309,9 @@ html [class*='section-'].section-bottom-0 {
 
 .bg-default {
 	background-color: #ffffff;
+}
+.bg-default-about {
+	background-color: #edc7b7
 }
 
 .bg-default:not([style*="background-"]) + .bg-default:not([style*="background-"]) {
