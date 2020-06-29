@@ -8,8 +8,11 @@
     <link rel="icon" href="images/favicon.ico" type="image/x-icon">
     <link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=Lato:300,300i,400,400i,700,900">
     <link rel="stylesheet" href="css/bootstrap.css">
+    <link href = "fonts/stylesheet.css" rel = "stylesheet" type = "text/css" />
     <link rel="stylesheet" href="css/fonts.css">
     <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet/less" href="css/form.less">
+    
     <style>.ie-panel{display: none;background: #212121;padding: 10px 0;box-shadow: 3px 3px 5px 0 rgba(0,0,0,.3);clear: both;text-align:center;position: relative;z-index: 1;} html.ie-10 .ie-panel, html.lt-ie-10 .ie-panel {display: block;}</style>
   </head>
   <body>
@@ -85,31 +88,69 @@
           <h2>Contacts</h2>
           <div class="row row-40">
             <div class="col-md-10 col-lg-6">
-              <h5>Our main office</h5>
+              <h5>Our Presence</h5>
               <div class="group-lg group-wrap-3">
                 <div class="group-item">
-                  <dl class="list-terms-2">
-                    <dt>Phone:</dt>
-                    <dd><a href="tel:#">+1 (800) 123 1234</a></dd>
-                  </dl>
-                  <dl class="list-terms-2">
-                    <dt>Fax:</dt>
-                    <dd><a href="tel:#">+1 (800) 123 1234</a></dd>
-                  </dl><a class="d-inline-block font-weight-bold big link-underline" href="mailto:#">mail@demolink.org</a>
-                </div>
-                <div class="group-item">
                   <ul class="list list-0">
-                    <li class="text-secondary">14973 Interurban Ave <br>Suite 101 <br>New York, NY 98168</li>
+                    <li class="text-secondary"><div class="icon icon-sm icon-primary novi-icon mdi mdi-map-marker"></div>US </li>
+                    <li class="text-secondary"><div class="icon icon-sm icon-primary novi-icon mdi mdi-map-marker"></div>India</li><li class="text-secondary"><div class="icon icon-sm icon-primary novi-icon mdi mdi-map-marker"></div>Japan</li><li class="text-secondary"><div class="icon icon-sm icon-primary novi-icon mdi mdi-map-marker"></div>Europe</li>
                    
                   </ul>
                 </div>
+                <div class="group-item">
+                  <div class="icon icon-sm icon-primary novi-icon mdi mdi-email"></div> <a class="d-inline-block font-weight-bold big link-underline" href="mailto:#">mail@capala.com</a>
+                </div>
+                
               </div>
             
             </div>
             <div class="col-md-10 col-lg-6">
-              <h5>Get in Touch</h5>
+            
               <!--RD Mailform-->
-              <form class="rd-form rd-mailform" data-form-output="form-output-global" data-form-type="contact" method="post" action="bat/rd-mailform.php">
+              <div  class="col-md-12 col-sm-12 hidden-xs col-xs-12 white-bg left-form" id="tab-container" >
+                <h1 >Share Your Business Plan</h1>
+                <form  method="post" action="bat/rd-mailform.php" class=" rd-form rd-mailform">
+                  <div  class="form-group">
+                    <label >Name</label>
+                    <input  class="form-control  " name="contact_name" placeholder="Name" type="text">
+                    </div>
+            
+                    <div  class="form-group">
+                        <label >Company Name</label>
+                      <input  class="form-control  " name="company_name" placeholder="Company name" type="text">
+                    </div>
+            
+                    <div  class="form-group">
+                        <label >What are you building?</label>
+                      <textarea  name="about" placeholder="Company brief" style="width:100%; height:200px;" class=" "></textarea>
+                    </div>
+            
+                    <div  class="form-group">
+                      <label >File attachment</label>
+                      <input  class="form-control  " name="presentation" type="file">
+                    </div>
+                    
+                    <div  class="form-group">                    
+                        <label >Email id</label>
+                      <input  class="form-control  " name="contact_email" placeholder="Contact email" type="email">
+                    </div>
+            
+                    <div  class="form-group">
+                        <label >Mobile number</label>
+                        <input  class="form-control  " name="contact_number" placeholder="Contact number" type="text">
+                    </div>    
+                    
+                    <div  class="text-right" style="margin-top:30px;">
+                        <input  class="btn-green-cont" name="submit" type="submit" value="SUBMIT">
+                    </div>
+                    <div  class="clearfix"></div>
+                    <!---->
+                    <div  class="text-left" style="margin-top:30px;">
+                      
+                    </div>
+                  </form>
+              </div>
+              <!-- <form class="rd-form rd-mailform" data-form-output="form-output-global" data-form-type="contact" method="post" action="bat/rd-mailform.php">
                 <div class="row row-10">
                   <div class="col-md-6">
                     <div class="form-wrap">
@@ -140,7 +181,7 @@
                   </div>
                 </div>
               </form>
-            </div>
+            </div> -->
           </div>
         </div>
       </section>

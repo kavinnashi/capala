@@ -57,6 +57,47 @@
  *     5.20 Countdown
  */
 /** @section Reset Styles*/
+.left-form h1{
+	font-family:AkzidenzGroteskPromdcn;
+	font-weight: 500;
+}
+.left-form label {
+    font-size: 16px;
+    color: #000002;
+	padding: 7px 0;
+	font-family:AkzidenzGroteskPro;
+	font-weight: 300;
+	display: inline-block;
+    max-width: 100%;
+	margin-bottom: 5px;
+	
+}
+.left-form input {
+    background: #ebecf0;
+    border-radius: 0;
+    border: 0;
+    height: 40px;
+    box-shadow: none;
+    -webkit-box-shadow: none;
+}
+input[type=file] {
+    display: block;
+}
+.left-form textarea {
+    background: #ebecf0;
+    padding: 6px 12px;
+    border: 0;
+    font-size: 14px;
+}
+.left-form .btn-green-cont {
+    height: auto;
+    width: 170px;
+    border: 2px solid #5ce3a1;
+    float: left;
+    padding: 8px 25px;
+    color: #282828;
+    background: #fff;
+}
 .row-align-center{
 	justify-content: center;
 }
@@ -9027,6 +9068,13 @@ html.rd-navbar-fixed-linked .page {
 }
 
 /** @section Lightgallery */
+@font-face {
+	font-family: 'lg';
+	src: url("../fonts/lg.eot?n1z373");
+	src: url("../fonts/lg.eot?#iefixn1z373") format("embedded-opentype"), url("../fonts/lg.woff?n1z373") format("woff"), url("../fonts/lg.ttf?n1z373") format("truetype"), url("../fonts/lg.svg?n1z373#lg") format("svg");
+	font-weight: normal;
+	font-style: normal;
+}
 @font-face {
 	font-family: 'lg';
 	src: url("../fonts/lg.eot?n1z373");
