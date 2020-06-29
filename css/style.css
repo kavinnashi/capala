@@ -98,6 +98,13 @@ input[type=file] {
     color: #282828;
     background: #fff;
 }
+.owl-stage{
+	width: 100%;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	
+}
 .row-align-center{
 	justify-content: center;
 }
@@ -8856,6 +8863,13 @@ html.rd-navbar-fixed-linked .page {
 
 .owl-carousel .owl-dot.active span, .owl-carousel .owl-dot:hover span {
 	background: #989da7;
+}
+.owl-stage{
+	width: 100%;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	
 }
 
 @media (min-width: 992px) {
