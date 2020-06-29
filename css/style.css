@@ -859,7 +859,9 @@ a[href*='tel'], a[href*='mailto'] {
 .box-icon-2 * + .text {
 	margin-top: 5px;
 }
-
+.box-icon-2 .icon, .box-icon-2 .title {
+    color: #15254a;
+}
 @media (min-width: 1200px) {
 	.box-icon-2 * + .title {
 		margin-top: 10px;
