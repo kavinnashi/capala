@@ -2458,6 +2458,9 @@ html .icon-circle {
 
 html .icon-sm {
 	font-size: 18px;
+	position: relative;
+    top: 2px;
+
 }
 
 /** @section Tables custom */
